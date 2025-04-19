@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.bola{
+    position: absolute;
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    border-radius: 50vh;
+    z-index: -1;
+}
